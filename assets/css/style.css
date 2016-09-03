@@ -1,0 +1,53 @@
+body {
+	background: url(../img/brick.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+}
+
+.jumbotron {
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+#add-show-text {
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	font-size: 20px;
+}
+
+.tvshow-buttons {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+p {
+    color: white;
+}
+
+.image-container {
+     height: 100%;
+     margin-left: 20px;
+     margin-right: 20px;
+     border: solid 2px black;
+     background-color: grey;
+}
+
+.images-returned {
+     max-height:100%;
+     max-width:100%;
+}
+
+.outer-container {
+     width: 300px;
+     margin-bottom: 20px;
+     display: inline-block;
+}
+
+.searchBar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -4,16 +4,44 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Giphy</title>
-	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<h1 class="text-center">TV Show GIF's</h1>
+			</div>
+		</div>
+	</div>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-10 col-md-offset-1" id="tv-buttons-here"></div>
+		</div>
+	</div>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-md-offset-2 text-center searchBar">
+				<form>
+					<label id="add-show-text" for="tvshow-input">Add a new TV Show: </label>
+					<input type="text" id="tvshow-input" placeholder="TV Show Name">
+					<button class="btn btn-danger" id="add-show" type="submit">Add</button>
+				</form>
+			</div>
+		</div>
+	</div>
 
+	<div class="container">
+		<div class="row">
+			<div class="gifs-here text-center"></div>
+		</div>
+	</div>
 
-
-
-
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>
